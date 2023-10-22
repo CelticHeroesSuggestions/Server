@@ -45,7 +45,6 @@ public CombatDamageMessageData TakeDamage(...) {
       if (!Program.DamageTracker[Name].ContainsKey(caster.Name))
          Program.DamageTracker[Name].Add(caster.Name, 0);
       Program.DamageTracker[Name][caster.Name] += damage;
-      Program.Display("DamageTracker for " + Name + " " + caster.Name + " = " + Program.DamageTracker[Name][caster.Name]);
   }
 
   ...  // message reply is constructed
