@@ -282,7 +282,7 @@ Replace `<compilation targetFramework="4.6">` with:
 
 and add the `rpgdb` access parameters under `<appSettings>`, alongside the other SQL connections:
 
-`<add key="RpgdbConnectionInfo" value="SERVER=localhost;DATABASE=ch_rpgdb;UID=(YOUR SQL USERNAME);PASSWORD=(YOUR SQL PASSWORD" />`
+`<add key="RpgdbConnectionInfo" value="SERVER=localhost;DATABASE=ch_rpgdb;UID=(YOUR SQL USERNAME);PASSWORD=(YOUR SQL PASSWORD)" />`
 
 ## Access
 
