@@ -14,6 +14,8 @@ Make a new table in the `rpgdb`:
 
 `CREATE TABLE damagetracker (mob_name VARCHAR(255), character_name VARCHAR(255), damage INT, death_time INT);`
 
+Set the `mob_name` and `character_name` columns to both be Primary Keys.
+
 ## Server
 
 In `Program.cs`, add a new static dictionary for the damage tracking, and an array of mobs to track:
