@@ -24,7 +24,7 @@ public static class Program {
 
   // DamageTracker storage
   public static Dictionary<string, Dictionary<string,int>> DamageTracker = new Dictionary<string, Dictionary<string,int>>();
-  public static string[] DamageTrackerMobs = {"Aggragoth", "Hrungnir", "Efnisien the Necromancer", "Gelebron", "Bloodthorn", "Dhiothu"};
+  public static string[] DamageTrackerMobs = {"Aggragoth", "Hrungnir", "Mordris", "Efnisien the Necromancer", "Gelebron", "Bloodthorn", "Dhiothu"};
 
   ...  // other class-wide variable initializations
 }
