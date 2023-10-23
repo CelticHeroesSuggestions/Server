@@ -38,7 +38,6 @@ public CombatDamageMessageData TakeDamage(...) {
 
   // DamageTracker: add to the dictionary if tracking this mob
   if (casterId != m_serverId && dmgMsgType == CombatManager.DamageMessageType.PlayerToMob && Program.DamageTrackerMobs.Contains(Name)) {
-  {
       // store the data in memory, and transfer to SQL on mob death (somewhere else)
       if (!Program.DamageTracker.ContainsKey(Name))
          Program.DamageTracker.Add(Name, new Dictionary<string, int>());
